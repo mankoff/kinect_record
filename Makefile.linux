@@ -1,0 +1,19 @@
+
+CC = g++
+LD = g++
+LDFLAGS = -lfreenect -lGL -lGLU -lm -lglut
+CFLAGS=-g -Wall -I/usr/local/include/libfreenect -I/usr/include
+#LIBS = -lgcc -lOpenGL -lGLUT 
+
+PROGS = kinect_record
+
+all: $(PROGS)
+
+kinect_record: kinect_record.o
+	$(LD) $(LDFLAGS) $(LIBS) $^ -o $@
+
+%.o: %.cpp
+	$(CC) $(CFLAGS)  $(LIBS) -c $<
+
+clean:
+	rm -rf *.o $(PROGS)
