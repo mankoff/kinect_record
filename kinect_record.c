@@ -516,11 +516,17 @@ void *freenect_threadfunc(void *arg)
 
 void usage()
 {
-  printf("Records the raw Kinect sensor data to a directory.\n"
+  printf("\n"
+		 "Records the raw Kinect sensor data to a directory.\n"
 		 "Also displays data while recording.\n"
-		 "Combination of libfrenect 'record' and 'glview'\n");
-  printf("Usage:\n");
-	printf("  kinect_record <folder>\n");
+		 "Combination of libfrenect 'record' and 'glview'\n"
+		 "\n"
+		 "Usage:\n"
+		 "  kinect_record <folder>\n"
+		 "\n"
+		 "Citation: http://dx.doi.org/10.1002/esp.3332\n"
+		 "\n"
+		 );
 	exit(0);
 }
 
