@@ -1,0 +1,15 @@
+
+Mankoff, K. D. and Russo, T. A. (2013), The Kinect: a low-cost,
+high-resolution, short-range 3D camera. Earth
+Surf. Process. Landforms, 38: 926–936. doi: 10.1002/esp.3332
+
+@article{Mankoff:2012The-Kinect,
+	Title = {{The Kinect: A low-cost, high-resolution, short-range, 3D camera}},
+		Author = {Kenneth D. Mankoff and Tess A. Russo},
+		Journal = {Earth Surface Processes and Landforms},
+		Volume = {38},
+		Number = {9},
+		Pages = {926 -- 936},
+		Year = {2012},
+		DOI = {10.1002/esp.3332}}
+
